@@ -9,6 +9,10 @@ Der Data-Mining-Teil des Seminars. Er besteht aus vier Skripten, die mit kleinen
 | 03 | [Klassifikation](03-data-mining-classification.ipynb) | Decision Tree, KNN, logistische Regression, SVM, Random Forest, Ensembles, neuronale Netze | Iris-Datensatz (in scikit-learn enthalten) | scikit-learn, mlxtend, tensorflow |
 | 04 | [Clusteranalyse](04-data-mining-cluster-analysis.ipynb) | k-means mit Elbow-Methode, hierarchisches Clustering, Silhouette-Analyse, Feature Selection, Landkarten mit `geopandas` | Scotch-Whisky-Datensatz von Kaggle, Landkarte von UK (`gb.json`) | scikit-learn, kagglehub, geopandas, pyproj, seaborn |
 
+## Folien
+
+Die Präsentation zum Seminar liegt als [`data-mining.odp`](data-mining.odp) im OpenDocument-Format vor und lässt sich mit LibreOffice Impress oder PowerPoint öffnen. Sie führt in das Data Mining ein und stellt die Verfahren der vier Skripte vor.
+
 ## Ausführen
 
 Die Skripte laufen in jeder Python-Umgebung mit Jupyter. Benötigt werden folgende Pakete (siehe auch den Abschnitt "Voraussetzungen" in Skript 01):
