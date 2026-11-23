@@ -18,7 +18,7 @@ Die Präsentation zum Seminar liegt als [`data-mining.odp`](data-mining.odp) im 
 Die Skripte laufen in jeder Python-Umgebung mit Jupyter. Benötigt werden folgende Pakete (siehe auch den Abschnitt "Voraussetzungen" in Skript 01):
 
 ```bash
-python -m pip install geopandas kagglehub matplotlib mlxtend numpy openpyxl pandas pyproj scikit-learn seaborn tensorflow jupyterlab
+python -m pip install geopandas kagglehub matplotlib mlxtend networkx numpy openpyxl pandas pyproj scikit-learn seaborn torch jupyterlab
 ```
 
 Die Notebooks sind **mit Ausgaben** gespeichert, sodass sie sich auch ohne Ausführen lesen lassen.
