@@ -5,7 +5,7 @@ Der Data-Mining-Teil des Seminars. Er besteht aus einem Vorbereitungsskript und 
 | # | Skript | Methoden | Daten | Pakete |
 |---|---|---|---|---|
 | 00 | [Vorbereitungen](00-preparations.ipynb) | Installation aller benötigten Pakete | - | pip |
-| 01 | [Pattern Mining](01-data-mining-pattern-mining.ipynb) | Apriori, FP-Growth, Association Rules (Support, Confidence, Lift), Multilevel Association Rules mit einer Konzepthierarchie | E-Commerce-Datensatz von Kaggle | pandas, kagglehub, mlxtend |
+| 01 | [Pattern Mining](01-data-mining-pattern-mining.ipynb) | Apriori, FP-Growth, Association Rules (Support, Confidence, Lift), Verlässlichkeit der Regeln (Konfidenzintervall, Stabilität über die Zeit), Multilevel Association Rules mit einer Konzepthierarchie | E-Commerce-Datensatz von Kaggle | pandas, kagglehub, mlxtend |
 | 02 | [Klassifikation](02-data-mining-classification.ipynb) | Entscheidungsbaum, KNN, logistische Regression, SVM, Random Forest, Ensembles, neuronale Netze mit zwei und drei Output-Knoten, Bewertung mit Testdaten und Kreuzvalidierung | Iris-Datensatz (in scikit-learn enthalten) | scikit-learn, mlxtend, torch |
 | 03 | [Clusteranalyse](03-data-mining-cluster-analysis.ipynb) | k-means, agglomeratives Clustering mit Dendrogramm, DBSCAN, Evaluation (Hopkins-Statistik, Elbow-Methode, Silhouette, Adjusted Rand Index), DENCLUE, PageRank, Stochastic Block Model, Feature Selection, Landkarten mit `geopandas` | Scotch-Whisky-Datensatz von Kaggle, Landkarte von UK (`gb.json`) | scikit-learn, scipy, kagglehub, geopandas, pyproj, seaborn, networkx |
 
